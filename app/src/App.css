@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(226, 117, 168);
   overflow: scroll;
   text-align: center;
   overflow: hidden;
@@ -59,13 +59,13 @@
 
 .connect-wallet-button {
   color: white;
-  background: -webkit-linear-gradient(left, #ff8867, #ff52ff);
+  background: -webkit-linear-gradient(left, #d5f16c, #a40dca);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+  background: -webkit-linear-gradient(left, #a8f7c2, #99ff9e);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-left: 10px;
@@ -81,7 +81,10 @@
   left: 0;
   /* padding-bottom: 45px; */
 }
-
+.baldy-pic {
+  width: 300px;
+  height: 300px;
+}
 .twitter-logo {
   width: 35px;
   height: 35px;
